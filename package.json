@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.3.2",
+    "noty": "^3.2.0-beta-deprecated",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.5.3",
+    "yarn": "^1.22.18"
+  },
+  "name": "realtime-pizza",
+  "version": "1.0.0",
+  "description": "This is a website to order pizza.",
+  "main": "index.js",
+  "author": "Mavoc",
+  "scripts": {
+    "serve": "node serve.js",
+    "dev": "nodemon serve.js",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "production": "mix --production"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.43",
+    "nodemon": "^2.0.16",
+    "resolve-url-loader": "5.0.0",
+    "sass": "^1.51.0",
+    "sass-loader": "12.1.0",
+    "tailwindcss": "^3.1.8",
+    "webpack-cli": "^4.9.2"
+  }
+}
