@@ -1,0 +1,1 @@
+This is pizza ordering web app, featuring live order updates, personalized carts, and favorite pizza options. I made this project following the Coder's Gyan YouTube playlist (Link: https://www.youtube.com/watch?v=RqiU5nzj_nU&list=PLXQpH_kZIxTVRmXQN9J0Az76te5mAreLV).
